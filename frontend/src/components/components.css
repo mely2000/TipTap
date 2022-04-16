@@ -1,0 +1,215 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+div.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+div.rectangle {
+  position: relative;
+  width: 40vw;
+  height: 100%;
+  left: 30vw;
+  background-color: rgb(155, 152, 152); 
+  text-align: center;
+}
+input.userLogin {
+  width: 95%;
+}
+#navbar {
+  width: 100%;
+  background-color: lightgray;
+  /* position: absolute; */
+  height: 17vh;
+}
+
+#profile {
+  position: absolute;
+  font-size: 2.5vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  width: 16vw;
+  float: left;  
+}
+#balance {
+  font-size: 2.5vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: right;
+  left: 80%;
+  float: left; 
+  text-align: center;
+  position: absolute;
+}
+
+label.form{
+  font-size: 2vh;
+}
+input.form{
+  border-color: blue;
+  width: 30vh;
+  text-align: center;
+}
+input.submit{
+  border-color: blue;
+  border-radius: 5vh;
+  width: 10vh;
+}
+input.logout{
+  font-size: 2vh;
+  border-color: blue;
+  border-radius: 5vh;
+  width: 10vh;
+}
+#code{
+  font-size: 0.3em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#logoutLink {
+  padding: 0;
+ font-size: x-small;
+}
+#tap{
+  width: 80%;
+  height: 65vh;
+  font-size: 200%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 50%;
+  text-align:center;
+  display:block;
+  border:10px solid black;
+  overflow:hidden;
+  background: blue; 
+  margin:0 auto;
+}
+.text{
+  font-size: 1.5vw;
+}
+
+#minilogo {
+  position: absolute;
+  left: 41%;
+  width: 20%;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+img.Logo {
+  width: 20vw;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+
+#tip {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  padding-top: 60px;
+}
+#dropdown {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+select.dropdown {
+  max-width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+button {
+  max-width: 50%;
+  height: 100%;
+  display: flex;
+  border: solid 2px blue;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  display: block;
+  justify-content: center;
+  margin: auto;
+}
+
